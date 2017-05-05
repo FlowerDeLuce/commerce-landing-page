@@ -328,7 +328,7 @@ a.btn
 	width: 98%
 	max-width: 1200px
 	background: #fff
-	margin: 0 auto
+	margin: 0 auto 20px
 	border-radius: 25px
 	padding: 70px
 	box-sizing: border-box
@@ -340,3 +340,185 @@ a.btn
 
 	&:first-child
 		margin-top: 0
+
+.review-wrapper
+	background: #f6fafb
+
+.review
+	width: 98%
+	max-width: 1200px	
+	margin: 0 auto
+	padding-bottom: 60px
+
+.reviev-slider
+	position: relative
+
+.slick-arrow
+	position: absolute
+	top: 50%
+	margin-top: -30px
+
+.reviev-slider__next
+	right: 10%
+
+.reviev-slider__prev
+	left: 10%
+.reviev-slider__next, .reviev-slider__prev
+	z-index: 2
+	cursor: pointer
+
+.reviev-slider 
+	.slick-dots 
+		li	
+			margin: 0
+			button
+				&:before
+					font-size: 10px
+					color: #cccccc	
+			&.slick-active
+				button
+					&:before
+						font-size: 20px
+						color: #717aff	
+
+
+.review__frame
+	width: 60%
+	margin: 0 auto
+	iframe
+		width: 100%
+		height: auto
+		min-height: 400px 
+
+.region-wrapper		
+	background: #463d73
+
+.region
+	width: 98%
+	max-width: 1200px
+	margin: 0 auto
+	overflow: hidden
+	min-height: 725px
+
+.map	
+	background: url('../img/map.png') 0 50px no-repeat
+	background-size: contain
+	&:after
+		display: block
+		content: ''
+		clear: both
+		height: 0px
+
+.region-title
+	color: #fff
+	&:after
+		background: #fff	
+
+.region__person-img
+	width: 48%
+	height: 500px
+	padding: 0 50px	
+	box-sizing: border-box
+	float: left
+
+.region-form-holder
+	width: 50%
+	float: right
+	
+
+.region-form-wrapper
+	height: 400px
+	max-width: 380px
+	margin: 60px auto	
+	background: rgba(255, 255, 255, 1)
+	padding: 40px
+	border-radius: 20px
+	box-sizing: border-box
+
+
+.text-input--r
+	display: block
+	width: 100%
+	box-sizing: border-box
+	background: #fff
+	height: 50px
+	border-radius: 	25px
+	color: #999
+	padding: 0 25px
+	margin-bottom: 30px
+	border: 2px splid #e1e1e1
+	outline: none
+
+  	
+.region-form
+	/*display: none*/
+
+.region-form__header
+	font-size: 24px
+	text-align: center
+	display: block
+	line-height: 35px
+	margin-bottom: 45px
+
+.region-form--success
+	display: none	
+	color: #333333
+	text-align: center
+	position: relative
+	box-sizing: border-box
+	
+	span
+		line-height: 30px
+		font-size: 18px
+		color: #333333
+
+		&.top
+			font-size: 24px
+			font-weight: bold	
+
+	.success-img
+		padding-top: 40px
+		padding-bottom: 20px		
+
+
+.success-img
+	display: block
+	border: none
+	margin: 0 auto
+	margin-bottom: 30px
+
+.footer__top
+	background: #717aff
+	padding-bottom: 40px
+
+.footer-title
+	color: #fff
+	margin-bottom: 60px
+	&:after
+		display: none
+
+.footer-form
+	display: flex;
+	max-width: 1200px
+	margin: 0 auto
+	justify-content: space-around
+	input
+		width: 30%
+
+.footer__bottom
+	background: #333
+
+.footer__bottom-content
+	display: flex
+	max-width: 1200px
+	margin: 0 auto
+	justify-content: space-between		
+
+	span
+		color: #fff
+		padding: 10px
+		&.copyright
+			font-size: 16px
+
+		&.footer-phone
+			font-size: 18px	

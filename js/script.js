@@ -32,4 +32,11 @@ dots: true,
     
   ]
 	});
+	
+	$('.js-review__slider').slick({
+		dots: true,
+		nextArrow: '.reviev-slider__next',
+		prevArrow: '.reviev-slider__prev'
+	});
+	
 });

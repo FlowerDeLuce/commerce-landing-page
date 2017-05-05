@@ -78,7 +78,7 @@
     float: left;
 
 
-    min-height: 700px;
+    /*min-height: 700px;*/
 }
 [dir='rtl'] .slick-slide
 {
