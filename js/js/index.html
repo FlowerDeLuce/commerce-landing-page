@@ -2,8 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>My first website with gulp</title>
+	<title>my first site with gulp</title>
 	<link href="css/main.css" rel="stylesheet" type="text/css" >
 	<link href="css/slick-theme.css" rel="stylesheet" type="text/css" >
 	<link href="css/slick.css" rel="stylesheet" type="text/css" >
@@ -12,7 +11,6 @@
 	<script src="js/script.js" type="text/javascript" > </script>
 </head>
 <body>
-<div class="wrapper">
 	<header class="header">
 		<div class="header-container">
 			<div class="header__logo">
@@ -20,22 +18,16 @@
 				<span> по продаже</span>
 				<span> трендовых товаров</span>
 			</div>
-				
 				<nav class="main-menu">
-					<div class="main-menu--mobile">
-						<span class="mobile-menu__pic--top"> </span>
-						<span class="mobile-menu__pic--middle"> </span>
-						<span class="mobile-menu__pic--bottom"> </span>
-					</div>
 					<ul class="main-menu__list">
-						<li class="main-menu__item"> 
-							<a href="#what" class="main-menu__link"> Чем вы будете заниматься </a>
+						<li class="mein-menu__item"> 
+							<a href="" class="main-menu__link"> Чем вы будете заниматься </a>
 						</li>
-						<li class="main-menu__item"> 
-							<a href="#why" class="main-menu__link"> Преимущества работы с нами </a>
+						<li class="mein-menu__item"> 
+							<a href="" class="main-menu__link"> Преимущества работы с нами </a>
 						</li>
-						<li class="main-menu__item"> 
-							<a href="#contacts" class="main-menu__link"> Контакты </a>
+						<li class="mein-menu__item"> 
+							<a href="" class="main-menu__link"> Контакты </a>
 						</li>
 					</ul>
 				</nav>
@@ -45,13 +37,13 @@
 		<h1 class="slogan">Стань нашим партнером <br>
 			и получи интернет-магазин в твоем регионе</h1>
 		<div class="request-form-wrapper">
-			<form id="request-form" class="request-form" action="">
+			<form class="request-form"	action="">
 				<input type="text" name="name" placeholder="Имя" class="text-input">
 				<input type="phone" name="phone" placeholder="Телефон" class="text-input">
 				<input type="submit" value="Отправить заявку" class="btn">
 			</form>
-			<div class="request-form--success" id="request-form--success">
-				<img class="success-img" src="img/success.png" alt="pic">
+			<div class="request-form--success">
+				<img class="success-img" src="img/success.png">
 				<span> Спасибо за вашу заявку! <br> Наш менеджер свяжется с Вами <br> в ближайшее время </span>
 			</div>
 		</div>	
@@ -59,7 +51,7 @@
 	<div class="about-us-wrapper">
 		<div class="about-us">
 			<div class="about-us__img">
-				<img class="about-us__pic" src="img/about-us.png" alt="pic">
+				<img class="about-us__pic" src="img/about-us.png">
 			</div>
 			<div class="about-us__text">
 				<p>
@@ -73,146 +65,135 @@
 				</p>
 			</div>
 		</div>
-		<h2 class="section-title"> <a name="what"> </a>Чем Вы будете заниматься </h2>	
+		<h2 class="section-title"> Чем Вы будете заниматься </h2>	
 		<div class="about-us__short-descr">
 			Вы будете продавать популярные товары через собственный интернет-магазин:
 		</div>
 		<div class="about-us__list">
-		<div class="js-about__slider">
 			<div class="about-us__item">
 				<div class="about-us__item-img-holder">
-					<img class="about-us__item-img" src="img/about-seo.png" alt="pic">
+					<img class="about-us__item-img" src="img/about-seo.png">
 				</div>
 				<span> СЕО, контекстная реклама, социальные сети, Авито
 				</span>
 			</div>
 			<div class="about-us__item">
 				<div class="about-us__item-img-holder">
-					<img class="about-us__item-img" src="img/about-www.png" alt="pic">
+					<img class="about-us__item-img" src="img/about-www.png">
 				</div>
 				<span> Интернет-магазин </span>
 
 			</div>
 			<div class="about-us__item">
 				<div class="about-us__item-img-holder">
-				<img class="about-us__item-img" src="img/about-phone.png" alt="pic">
+				<img class="about-us__item-img" src="img/about-phone.png">
 				</div>
 				<span> Звонок клиенту </span>
 			</div>
 			<div class="about-us__item">
 				<div class="about-us__item-img-holder">
-					<img class="about-us__item-img" src="img/about-delivery.png" alt="pic"> 
+					<img class="about-us__item-img" src="img/about-delivery.png"> 
 				</div>
 				<span> Отправляете товар </span>
 				
 			</div>
 			<div class="about-us__item">
 				<div class="about-us__item-img-holder">
-					<img class="about-us__item-img" src="img/about-money.png" alt="pic">
+					<img class="about-us__item-img" src="img/about-money.png">
 				</div>
 				<span> Получаете деньги </span>
+				
 			</div>
-		</div>	
 		</div>
 	</div>	
 	<div class="our-packages__wrapper">
 		<div class="our-packages">
 			<h2 class="section-title"> Наши пакеты</h2>
-			<div class="pack-slider">
-				
-					<div class="pack-slider__next">
-						<img src="img/pack-next.png">
-					</div>
-					<div class="pack-slider__prev">
-						<img src="img/pack-prev.png">
-					</div>
-
-				<div class="js-price__slider">
-					<div class="packages__item">
-						<h3 class="section-title--small"> Старт </h3>
-						<ul class="packages__description-list">
-							<li class="packages__description-item">
-							Настройка и подключение <br>
-							cайт landing page
-							</li>
-							<li class="packages__description-item">
-							Обучение
-							</li>
-							<li class="packages__description-item">
-							Первая партия товара на <strong>10&nbsp;000 грн.</strong>
-							</li>
-							<li class="packages__description-item">
-							Подключение 1 канала рекламы <br>
-							<span class="advert">Яндекс-Директ</span>
-							</li>
-							<div class="packages__bottom">
-								<span class="packages__price"> 25 000 грн </span>
-								<a href="" class="btn"> Отправить заявку </a>
-							</div>	
-						</ul>
-					</div>
-
-					<div class="packages__item">
-						<h3 class="section-title--small"> Стандарт </h3>
-						<ul class="packages__description-list">
-							<li class="packages__description-item">
-							Настройка и подключение <br>
-							cайт landing page
-							</li>
-							<li class="packages__description-item">
-							Обучение
-							</li>
-							<li class="packages__description-item">
-							Первая партия товара на <strong>15&nbsp;000 грн.</strong>
-							</li>
-							<li class="packages__description-item">
-							Подключение 2 каналов рекламы <br>
-							<span class="advert">Яндекс-Директ и Google Adwords </span>
-							</li>
-							<li class="packages__description-item"> Подключение новых трендовых товаров со скидкой 30% 
-							</li>
-							<li class="packages__description-item">Аккаунт-поддержка от нашего маркетингового агенства на первый месяц
-							</li>
-							<div class="packages__bottom">
-								<span class="packages__price"> 35 000 грн </span>
-								<a href="" class="btn"> Отправить заявку </a>
-							</div>	
-						</ul>
-					</div>
-
-					<div class="packages__item">
-						<h3 class="section-title--small"> Премиум </h3>
-						<ul class="packages__description-list">
-							<li class="packages__description-item">
-							Настройка и подключение <br>
-							cайт landing page
-							</li>
-							<li class="packages__description-item">
-							Обучение
-							</li>
-							<li class="packages__description-item">
-							Первая партия товара на <strong>20&nbsp;000 грн.</strong>
-							</li>
-							<li class="packages__description-item">
-							Подключение 5 каналов рекламы <br>
-							<span class="advert">Яндекс-Директ, Google Adwords, таргетированная реклама в соц сетях, РСЯ, продвижение в Instagram</span>
-							</li>
-							<li class="packages__description-item"> Подключение новых трендовых товаров со скидкой 50% 
-							</li>
-							<li class="packages__description-item">Аккаунт-поддержка от нашего маркетингового агенства на первый месяц
-							</li>
-							<div class="packages__bottom">
-								<span class="packages__price"> 50 000 грн </span>
-								<a href="" class="btn"> Отправить заявку </a>
-							</div>	
-						</ul>
-					</div>
-				</div><!--slider-->
+			<div class="js-price__slider">
+			<div class="packages__item">
+				<h3 class="section-title--small"> Старт </h3>
+				<ul class="packages__description-list">
+					<li class="packages__description-item">
+					Настройка и подключение <br>
+					cайт landing page
+					</li>
+					<li class="packages__description-item">
+					Обучение
+					</li>
+					<li class="packages__description-item">
+					Первая партия товара на <strong>10 000 грн.</strong>
+					</li>
+					<li class="packages__description-item">
+					Подключение 1 канала рекламы <br>
+					<span class="advert">Яндекс-Директ</span>
+					</li>
+					<div class="packages__bottom">
+						<span class="packages__price"> 25 000 грн </span>
+						<a href="" class="btn"> Отправить заявку </a>
+					</div>	
+				</ul>
 			</div>
+
+			<div class="packages__item">
+				<h3 class="section-title--small"> Стандарт </h3>
+				<ul class="packages__description-list">
+					<li class="packages__description-item">
+					Настройка и подключение <br>
+					cайт landing page
+					</li>
+					<li class="packages__description-item">
+					Обучение
+					</li>
+					<li class="packages__description-item">
+					Первая партия товара на <strong>15 000 грн.</strong>
+					</li>
+					<li class="packages__description-item">
+					Подключение 2 каналов рекламы <br>
+					<span class="advert">Яндекс-Директ и Google Adwords </span>
+					</li>
+					<li class="packages__description-item"> Подключение новых трендовых товаров со скидкой 30% 
+					</li>
+					<li class="packages__description-item">Аккаунт-поддержка от нашего маркетингового агенства на первый месяц
+					</li>
+					<div class="packages__bottom">
+						<span class="packages__price"> 35 000 грн </span>
+						<a href="" class="btn"> Отправить заявку </a>
+					</div>	
+				</ul>
+			</div>
+
+			<div class="packages__item">
+				<h3 class="section-title--small"> Премиум </h3>
+				<ul class="packages__description-list">
+					<li class="packages__description-item">
+					Настройка и подключение <br>
+					cайт landing page
+					</li>
+					<li class="packages__description-item">
+					Обучение
+					</li>
+					<li class="packages__description-item">
+					Первая партия товара на <strong>20 000 грн.</strong>
+					</li>
+					<li class="packages__description-item">
+					Подключение 5 каналов рекламы <br>
+					<span class="advert">Яндекс-Директ, Google Adwords, таргетированная реклама в соц сетях, РСЯ, продвижение в Instagram</span>
+					</li>
+					<li class="packages__description-item"> Подключение новых трендовых товаров со скидкой 50% 
+					</li>
+					<li class="packages__description-item">Аккаунт-поддержка от нашего маркетингового агенства на первый месяц
+					</li>
+					<div class="packages__bottom">
+						<span class="packages__price"> 50 000 грн </span>
+						<a href="" class="btn"> Отправить заявку </a>
+					</div>	
+				</ul>
+			</div>
+			</div><!--slider-->
 		</div>	
 	</div>
 	<div class="why-wrapper">
-		<h2 class="section-title"> <a name="why"> </a> Почему с нами выгодно сотрудничать?</h2>
+		<h2 class="section-title"> Почему с нами выгодно сотрудничать?</h2>
 		<div class="why__list-wrap">
 			<ul class="why__list">
 				<li> Сроки окупаемости – учитывая минимальные вложения, Вы окупитесь за первый месяц </li>
@@ -260,21 +241,21 @@
 	<div class="region-wrapper">
 		<div class="region">
 			<div class="map">
-				<h2 class="section-title region-title"> Мы открываем одно представительство в регионе</h2>
+				<h2 class="section-title region-title"> Почему с нами выгодно сотрудничать?</h2>
 				<div class="region__person-img">
-					<img src="img/person.png" class="region__person-pic" alt="">
+					<img src="img/person.png" class="region__person-pic">
 				</div>
 				<div class="region-form-holder">
 					<div class="region-form-wrapper">
-						<form class="region-form" id="region-form"	action="">
+						<form class="region-form"	action="">
 							<span class="region-form__header"> Проверьте, <br> свободен ли Ваш город? </span>
-							<input type="text" name="name" placeholder="Название города" class="text-input--r" required="required">
+							<input type="text" name="name" placeholder="Название города" class="text-input--r">
 							<input type="phone" name="phone" placeholder="Телефон" class="text-input--r">
 							<input type="submit" value="Отправить заявку" class="btn">
 						</form>
-						<div class="region-form--success" id="region-form--success">
+						<div class="region-form--success">
 							<span class="top"> Спасибо за вашу заявку! </span>
-							<img class="success-img" src="img/success.png" alt="pic">
+							<img class="success-img" src="img/success.png">
 							<span> Наш менеджер свяжется с Вами <br> в ближайшее время! </span>
 						</div>
 					</div>	
@@ -284,7 +265,7 @@
 	</div>
 	<footer class="footer">
 		<div class="footer__top">
-			<h2 class="section-title footer-title"> <a name="contacts" > </a>Присоединяйся к нашей команде!</h2>
+			<h2 class="section-title footer-title"> Присоединяйся к нашей команде!</h2>
 			<div class="footer-form-wrapper">
 				<form class="footer-form"	action="">
 					<input type="text" name="name" placeholder="Название города" class="text-input--r">
@@ -300,6 +281,5 @@
 			</div>
 		</div>
 	</footer>
-</div><!--wrapper-->	
 </body>
 </html>
